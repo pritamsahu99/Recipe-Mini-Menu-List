@@ -1,0 +1,196 @@
+*{
+    font-family: 'Lunasima', sans-serif;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+   
+    height: 100%;
+    width: 100%;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #e4c7e4 0%, #5cc2cd 100%);
+
+    /* background-color: #8ea0fc7e;
+    background-image: linear-gradient(62deg, #6b9ed1 0%, #d691be 100%); */
+}
+
+.navContainer{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #81437e 46%, #ffcd70be 100%);
+    text-align: center;
+    width: 100vw;
+    min-height: 60px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.nav{
+    box-shadow: 0px 3px 20px 2.5px rgba(38, 109, 133, 0.658);
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#nameLogo{
+    font-weight: 300;
+    text-align: center;
+    font-size: 2.8rem;
+    color: azure;
+}
+
+div.navList{
+    width:auto;
+    font-size: 1.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+div.navList a{
+    color: azure;
+    text-decoration: none;
+}
+
+.mainContent{
+    /* padding: 5px; */
+    margin: 8px auto;
+    width: 60% ;
+    height: 100%;
+    border-radius: 7px;
+    box-shadow: 0px 5px 20px 1px rgba(12, 37, 46, 0.712);
+}
+
+.BoxContents{
+    margin: auto;
+    border-radius: 7px;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #6289b0 0%, #E0C3FC 100%);
+
+    /* background-color: #ffcd7052; */
+    width: 100%;
+    height: 100%;
+}
+
+.ForBothBox{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+h3{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    color: #1476d7;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.myDishLists p {
+    width: 100%;
+    border-radius: 15px;
+    align-items: start;
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    background-color: #6171bf6b;
+}
+
+.deList{
+    width: 30vw;
+    height: 100vh auto; 
+}
+
+.deList p{
+    
+    color: rgb(29, 54, 54);
+    font-weight: 700;
+    font-size: larger; 
+}
+.deList p span{
+    font-size: medium;
+    color: rgb(14, 60, 78);
+    padding-left: 30px;
+}
+
+.deList .Preparation{
+    padding-left: 60px;
+    font-size: small;
+}
+
+.coffeeProcess li{
+    padding: 2px;
+}
+.rightBox{
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s linear 0s;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+}
+
+.rightBox:hover{
+    transform: scale(1.1);
+}
+
+.rightBox .coffeeIMG img{
+    display: block;
+    border-radius: 20px;
+    height: 210px;
+    width: 210px;
+}
+
+.rightBox .overlay span{
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.rightBox .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(36, 34, 34, 0.713);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.3s linear 0s;
+} 
+.rightBox:hover .overlay{
+    opacity: 1;
+}
+
+.footer{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #81437e 46%);
+    width: 100%;
+    font-size: 1.3rem;
+    min-height: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+}
