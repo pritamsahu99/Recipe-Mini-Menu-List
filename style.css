@@ -6,14 +6,11 @@
 }
 
 body{
-   
+    overflow-x: hidden;
     height: 100%;
     width: 100%;
     background-color: #D9AFD9;
     background-image: linear-gradient(0deg, #e4c7e4 0%, #5cc2cd 100%);
-
-    /* background-color: #8ea0fc7e;
-    background-image: linear-gradient(62deg, #6b9ed1 0%, #d691be 100%); */
 }
 
 .navContainer{
