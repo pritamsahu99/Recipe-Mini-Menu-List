@@ -1,9 +1,3 @@
-<div align="center">
-  <img height="300" src="https://www.bing.com/th/id/OGC.0274207612d515f49012c87803a9e631?pid=1.7&rurl=https%3a%2f%2fcdn.dribbble.com%2fusers%2f2514208%2fscreenshots%2f9457622%2fweb_developer.gif&ehk=veqYgmD8af74WfDt9fVqmJ3xlglSnvKPXLACcqwhA%2bY%3d"  />
-</div>
-
-###
-
 <h1 align="left">hey there 👋...<br>here Pritam Sahu<br>- Aspiring to be a JAVA & Web Developer</h1>
 
 ###
@@ -15,8 +9,11 @@
 <p align="left">- 🔭 I’m a student at present<br>- 👨🏻‍🎓 I'm in BCA 1st year 2nd Sem<br>- 📚 I'm currently learning JAVA PROGRAMMING, MERN FULL-STACK WEB-DEV<br>- ⚡ In my free time I Practice my learnings</p>
 
 ###
+<div align="center">
+  <img height="300" src="https://th.bing.com/th/id/OIP.pHdqoVy-UWuTb-wvN546BgHaJl?pid=ImgDet&rs=1"  />
+</div>
 
-<p align="left">#
+<p align="center">#
 Recipe-Mini-Menu-List
 </p>
 
